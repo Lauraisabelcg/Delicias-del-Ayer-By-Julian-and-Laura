@@ -20,7 +20,7 @@ A continuación se muestra la interfaz principal del proyecto:
 ![Inicio](InicioDelicias.png)
 
 ### 2. Detalles del Producto y Sistema de Reseñas
-![Producto Específico](Producto especifico.png)
+![Producto Especifico](Producto-especifico.png)
 
 ### 3. Sobre Nosotros y Carrusel Automático
 ![Sobre Nosotros](SobreDelicias.png)
