@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicias del Ayer | Inicio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h2>Delicias del Ayer</h2>
+            </div>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
+            </ul>
+            <div id="estado-tienda" class="estado-tienda">Calculando horario...</div>
+        </nav>
+    </header>
+
+    <main>
+        <section style="text-align: center; padding: 3rem 1rem; background-color: var(--color-secundario);">
+            <h1>Sabores que abrazan el alma, detalles que innovan tu presente.</h1>
+            <p style="margin-top: 1rem;">Tradición & Innovación</p>
+        </section>
+
+        <section class="filtros">
+            <select id="filtro-categoria">
+                <option value="Todos">Categoría: Todos</option>
+                <option value="Frio">Fríos</option>
+                <option value="Caliente">Calientes</option>
+            </select>
+
+            <select id="filtro-dulzor">
+                <option value="Todos">Dulzor: Todos</option>
+                <option value="Bajo">Bajo</option>
+                <option value="Medio">Medio</option>
+                <option value="Alto">Alto</option>
+            </select>
+
+            <select id="filtro-tipo">
+                <option value="Todos">Tipo: Todos</option>
+                <option value="Torta">Tortas</option>
+                <option value="Flan">Flan</option>
+                <option value="Postre">Postres</option>
+            </select>
+            
+            <button id="btn-filtrar" style="background-color: var(--color-primario); color: white;">Aplicar Filtros</button>
+        </section>
+
+        <section id="contenedor-productos" class="grid-productos">
+            </section>
+        
+        <section style="padding: 2rem;">
+            <h2 style="text-align: center;">Lo que nuestros clientes dicen</h2>
+            <div id="contenedor-resenas-globales" class="grid-productos">
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Delicias del Ayer. Todos los derechos reservados.</p>
+        <p>Horario: Lunes a Sábado, 8:00 AM - 8:00 PM</p>
+        <p>Dirección: Calle Principal, Bucaramanga, Colombia</p>
+        <div>
+            <a href="#">Instagram</a> | <a href="#">WhatsApp</a>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="productos.js"></script>
+</body>
+</html>

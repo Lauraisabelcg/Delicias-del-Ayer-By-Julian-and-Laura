@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Producto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menú de navegación integrado igual que en el index -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h2>Delicias del Ayer</h2>
+            </div>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
+            </ul>
+            <div id="estado-tienda" class="estado-tienda">Calculando horario...</div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="detalle-producto-info" style="text-align: center; padding: 2rem; background-color: var(--color-secundario);">
+             Cargando producto...
+        </section>
+
+        <section class="contenedor-detalle">
+            
+            <div class="seccion-resenas" id="lista-resenas">
+                <h3>Palabras de quienes ya probaron</h3>
+                <div id="contenedor-resenas-producto"></div>
+            </div>
+
+            <div class="seccion-formulario">
+                <h3>Cuéntanos sobre tu experiencia</h3>
+                <form id="form-resena">
+                    <div class="form-group">
+                        <label><input type="checkbox" id="ha-comprado" required> He comprado este producto</label>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Tu Nombre:</label>
+                        <input type="text" id="nombre-cliente" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Calificación (1 al 5):</label>
+                        <select id="calificacion">
+                            <option value="5">5 - Excelente</option>
+                            <option value="4">4 - Muy bueno</option>
+                            <option value="3">3 - Bueno</option>
+                            <option value="2">2 - Regular</option>
+                            <option value="1">1 - Malo</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Qué fue lo que más te gustó:</label>
+                        <div class="opciones-checkbox">
+                            <label><input type="checkbox" value="Sabor tradicional" class="gustos"> El sabor tradicional</label>
+                            <label><input type="checkbox" value="Textura" class="gustos"> La textura (artesanal/casera)</label>
+                            <label><input type="checkbox" value="Calidad" class="gustos"> La calidad de los ingredientes</label>
+                            <label><input type="checkbox" value="Presentacion" class="gustos"> La presentación/empaque</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Tu opinión del producto</label>
+                        <textarea id="mensaje-viaje" rows="3" placeholder="Nos encanta saber si nuestros sabores te transportaron a algún momento especial..." required></textarea>
+                    </div>
+
+                    <button type="submit" style="background-color: var(--color-acento); color: white; border: none; padding: 1rem; width: 100%; border-radius: 5px; cursor: pointer; font-weight: bold;">Añadir Reseña</button>
+                    <p id="mensaje-exito" style="color: green; display: none; margin-top: 10px;">¡Reseña enviada! Aparecerá en unos segundos...</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+    <script src="productos.js"></script>
+</body>
+</html>
