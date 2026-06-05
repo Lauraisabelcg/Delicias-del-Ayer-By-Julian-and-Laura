@@ -2,6 +2,7 @@
 
 Bienvenido al repositorio de **Delicias del Ayer**, una aplicación web modular diseñada para una repostería tradicional con un toque de innovación sofisticada. Este proyecto fue desarrollado utilizando tecnologías web estándar para garantizar un rendimiento óptimo y una experiencia de usuario fluida, sirviendo como un excelente ejemplo de integración de bases de datos ligeras e interfaces dinámicas.
 
+
 ## 🚀 Características Principales
 
 * **Catálogo Dinámico de Productos:** Los productos se cargan dinámicamente utilizando un documento de **Google Sheets** como base de datos en formato JSON, lo que facilita la actualización del inventario en tiempo real sin modificar el código.
@@ -81,3 +82,6 @@ Este proyecto fue estructurado e inicializado con la asistencia de Inteligencia 
 **Instrucciones adicionales proporcionadas posteriormente:**
 * Se migró el almacenamiento de los comentarios y reseñas exclusivamente a `localStorage` (evitando guardarlos en Google Sheets). Google Sheets quedó reservado únicamente como base de datos de lectura para renderizar los productos.
 * Se implementó un carrusel de imágenes automatizado (sin necesidad de desplazamiento manual por parte del usuario) en la sección "Sobre Nosotros".
+
+## Google sheet para editar los productos
+https://docs.google.com/spreadsheets/d/1wc7_tf1gOcJ_m_Xb3nuMi_ZFTl6f6Ie-uEvzdmH2sQ8/edit?gid=0#gid=0
