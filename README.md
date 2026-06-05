@@ -17,13 +17,13 @@ Bienvenido al repositorio de **Delicias del Ayer**, una aplicación web modular 
 A continuación se muestra la interfaz principal del proyecto:
 
 ### 1. Página de Inicio y Filtros
-![Inicio](./InicioDelicias.jpg)
+![Inicio](InicioDelicias.jpg)
 
 ### 2. Detalles del Producto y Sistema de Reseñas
-![Producto Específico](./Producto especifico.jpg)
+![Producto Específico](Producto especifico.jpg)
 
 ### 3. Sobre Nosotros y Carrusel Automático
-![Sobre Nosotros](./SobreDelicias.jpg)
+![Sobre Nosotros](SobreDelicias.jpg)
 
 ## 🛠️ Tecnologías y Estructura de Archivos
 
